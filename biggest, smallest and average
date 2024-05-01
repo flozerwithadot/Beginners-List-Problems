@@ -1,0 +1,10 @@
+numsList = [7, 6, 23, 8.18, 18, 8, 7.2, 85, 915, 12]
+max = (max(numsList))
+min = (min(numsList))
+maxin = numsList.index(max)
+minin = numsList.index(min)
+print(max, maxin)
+print(min, minin)
+total = sum(numsList)
+num = len(numsList)
+print(total/num)
